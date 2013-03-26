@@ -1,0 +1,14 @@
+# Python
+*.py[co]
+
+# Django
+*.log
+*.pot
+*.sqlite
+secret_*
+
+# vim
+*.swp
+
+# PyCharm
+.idea
