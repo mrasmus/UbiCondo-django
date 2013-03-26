@@ -1,1 +1,3 @@
-This file was created by PyCharm 2.7.1 for binding GitHub repository
+UbiCondo is an open framework for coordinating device interaction in a spatially-aware manner. The backend (this) runs
+on Django and communicates through a simple RESTful interface. It is meant to be easily adaptable to talk to any
+GET/POST-based interface through simple configuration, and includes bridges to interface to a variety of devices.
