@@ -23,6 +23,6 @@ urlpatterns = patterns('',
 
                        url(r'^sensor/register', 'MainControl.views.get_sensor_name'),
                        url(r'^sensor/pointgesture', 'MainControl.views.trigger_point_gesture'),
-                       url(r'^light/on', 'MainControl.views.light_on'),
-                       url(r'^light/off', 'MainControl.views.light_off'),
+                       url(r'^light/on', 'Simple_LED.views.light_on'),
+                       url(r'^light/off', 'Simple_LED.views.light_off'),
 )
